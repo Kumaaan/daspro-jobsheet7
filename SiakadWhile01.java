@@ -7,7 +7,7 @@ public class SiakadWhile01 {
 
         System.out.print("Masukan jumlah mahasiswa: ");
         jml = sc.nextInt();
-
+        
         while (i < jml) {
             System.out.print("Masukan nilai mahasiswa ke-: " + (i + 1) + " : ");
             nilai = sc.nextInt();
@@ -33,6 +33,6 @@ public class SiakadWhile01 {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah E");
             }
             i++;
-        }
+        } sc.close();
     }
 }
